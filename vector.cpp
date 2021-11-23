@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <utility>
+#include <algorithm>
+
 using namespace std;
 
 int main()
@@ -40,8 +42,9 @@ vector<int> cpy_year(year); // Now all the values of original year vector is cop
 // WAYS TO PRINT A VECTOR.
 
 v.push_back(11);
-v.push_back(55);
 v.push_back(77);
+v.push_back(55);
+
 
 cout << "Printing of Vectors: " << endl;
 for (vector<int>::iterator it = v.begin(); it != v.end(); it++)
