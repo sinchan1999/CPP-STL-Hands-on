@@ -66,11 +66,13 @@ int main()
     s1="Ahemdabad";
     cout<<"\n"<<s1.substr(3,-1)<<endl;
     
-    //String to Integer Conversion & Vice-Versa
+    //String to Integer Conversion 
     s1="999";
     int num=stoi(s1);
-    num=num+1;
     cout<<"\n"<<num<<endl;
+
+    //Integer to String Conversion
+    num=num+1;    
     cout<<to_string(num)+" --Thousand"<<endl;
     
     
